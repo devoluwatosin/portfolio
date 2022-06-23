@@ -1,0 +1,98 @@
+body{
+  font-family: "poppins", sans-serif;
+  background-color: #1F1E21;
+}
+.nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #BE3145;
+  width: 100%;
+}
+.nav-list{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-list li{
+  list-style: none;
+}
+.nav-list li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+.nav-list li a:hover{
+  border: none;
+  background-color: rgb(55, 55, 102);
+}
+.welcome-section{
+    height: 359px;
+  background-color: #1F1E21;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 150px
+}
+.welcome{
+  color: white;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+.welcome-title{
+  color: #BE3145;
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 120px;
+  margin-top: 0;
+}
+.project-section{
+  background-color: rgba(74, 74, 183, 0.938);
+  text-align: center;
+}
+.project-section-header{
+  padding: 20px;
+  text-decoration: underline;
+  color: white;
+  font-size: 40px
+}
+.contact-section{
+  background-color: #1F1E21;
+  text-align: center;
+  border-bottom: 1px solid #1F1E21;
+}
+.contact-section-header{
+  color: white;
+  padding-top: 20px;
+}
+.contact-section-header h2{
+  font-size: 60px;
+  padding-top: 20px;
+}
+.contact-section-header p{
+  font-size: 30px;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+.contact-links{
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.contact-links a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 100px;
+}
+hr{
+  color: #BE3145;
+}
+footer{
+  color: white;
+  text-align: right;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
